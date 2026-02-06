@@ -26,6 +26,8 @@ export {
   applyModelScopeConfig,
   applyModelScopeProviderConfig,
   applyZaiConfig,
+  applyXaiConfig,
+  applyXaiProviderConfig,
 } from "./onboard-auth.config-core.js";
 export {
   applyMinimaxApiConfig,
@@ -57,11 +59,13 @@ export {
   setXiaomiApiKey,
   setModelScopeApiKey,
   setZaiApiKey,
+  setXaiApiKey,
   writeOAuthCredentials,
   VERCEL_AI_GATEWAY_DEFAULT_MODEL_REF,
   XIAOMI_DEFAULT_MODEL_REF,
   MODELSCOPE_DEFAULT_MODEL_REF,
   ZAI_DEFAULT_MODEL_REF,
+  XAI_DEFAULT_MODEL_REF,
 } from "./onboard-auth.credentials.js";
 export {
   buildMinimaxApiModelDefinition,
